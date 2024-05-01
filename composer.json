@@ -1,0 +1,16 @@
+{
+    "name": "dell/nda-portal",
+    "description": "work",
+    "autoload": {
+        "psr-4": {
+            "Dell\\NdaPortal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abduljabbar",
+            "email": "ohiabduljabbar@gmail.com"
+        }
+    ],
+    "require": {}
+}

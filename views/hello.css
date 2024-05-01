@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Finlandica:wght@400;500;600;700&display=swap");.tilt {
+  transition: all;
+  transform-style: preserve-3d;
+  transform: rotateX(-10deg) rotateY(10deg) perspective(9cm)
+}
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Finlandica,Inter
+}
+
+.bod{
+  display: flex;
+}
+.pass{
+  margin-left: -530px;
+  margin-top: 20px;
+}
+.pad{
+  margin-bottom: 10px;
+}
+.login-img{
+  width: 150px;
+}
+.email{
+  margin-top: 10px;
+  margin-left: -490px;
+}
+.err{
+  color: red;
+}
+.welcome{
+    width: 50%;
+    background: rgb(241 252 245);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.welcome-img{
+  width: 150px;
+}
+h3{
+  font-weight: lighter;
+  
+}
+.signup{
+    width: 50%;
+    height: 100vh;
+}
+.inputs-container{
+  display: grid;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+h2{
+  font-family:'Times New Roman', Times, serif;
+}
+.register-img{
+  width: 100px;
+}
+.extra{
+  margin-left: -500px;
+  padding-top: 30px;
+}
+.grid{
+  display: grid;
+  width: 100%;
+}
+label{
+  font-size: large;
+  position: relative;;
+  
+}
+.edge{
+  position: relative;
+ left: -270px;
+}
+.double{
+  display: flex;
+  flex-direction: row;
+  margin-top: -10px;
+}
+#phone{
+  margin-top: -40px;
+}
+input{
+  width: 90%;
+  height: 35px;
+  background:  rgb(241 252 245);
+  border-radius: 4px;
+}
+.small-input{
+  width: 270px;
+  margin: 30px;
+}
+.grid label{
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+button{
+  width: 60%;
+  height: 35px;
+  border-radius: 5px;
+  background: rgb(29 156 83 );
+  color: white;
+}
+a{
+  color:  rgb(29 156 83 );
+  text-decoration: none;
+}
+.field-error{
+  margin-top: -10px;
+  font-family: sans-serif;
+  color: red;
+}
+.error{
+  margin-top: 10px;
+  color: red;
+  margin-bottom: -10px;
+}
+p{
+  color: red;
+  margin-bottom: -10px;
+}
